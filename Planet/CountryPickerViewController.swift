@@ -91,7 +91,7 @@ public extension CountryPickerViewController {
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
         searchController.hidesNavigationBarDuringPresentation = false
-        searchController.searchBar.showCancelButton = false
+        searchController.searchBar.showsCancelButton = false
         tableView.tableHeaderView = searchController.searchBar
         definesPresentationContext = true
         
